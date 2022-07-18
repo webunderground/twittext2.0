@@ -1,0 +1,1 @@
+<div class='w3-container w3-card-2 w3-white w3-round w3-margin w3-tiny'><br><img src='fabian.jpg' alt='Avatar' class='w3-left w3-circle w3-margin-right' style='width:60px'><b>fabian<br><p class='w3-small'>soy el creador de esta  red social</p> </div>
