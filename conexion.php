@@ -1,7 +1,7 @@
 <?php
-$conexion = mysqli_connect("localhost","root","lolita1873","tw");
+$conexion = mysqli_connect("localhost","root","password","tw");
 
 if (!$conexion) {
- die("Error de conexión (".mysqli_connect_errno().")".mysqli_connect_error());
+ die("Error de conexiÃ³n (".mysqli_connect_errno().")".mysqli_connect_error());
 } 
 ?>
