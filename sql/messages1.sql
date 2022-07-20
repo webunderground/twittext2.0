@@ -45,7 +45,7 @@ INSERT INTO `messages1` (`id`, `usuario`, `message`, `hashtag`, `time`) VALUES
 (5, 'homero', '#twitter el pajaroco griton', 'twitter', '2022-07-08 16:48:53'),
 (25, 'homero', '#twittext es un clon de la red social twitter', 'twittext', '2022-07-17 21:47:29'),
 (27, 'homero', 'red scocial y sus #error', 'error', '2022-07-17 21:51:07'),
-(28, 'fabian', '#error se acabaron los errores y listo', 'error', '2022-07-17 21:53:04');
+(28, 'homero', '#error se acabaron los errores y listo', 'error', '2022-07-17 21:53:04');
 
 --
 -- Índices para tablas volcadas
