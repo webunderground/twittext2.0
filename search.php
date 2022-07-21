@@ -107,7 +107,7 @@ textarea {
  {  
       $tag = preg_replace("#[^a-zA-Z0-9_]#", '', $_GET["tag"]);  
       echo '<h1>' . $tag . '</h1>';  
-      $connect = mysqli_connect("localhost", "root", "lolita1873", "tw");  
+      $connect = mysqli_connect("localhost", "root", "password", "tw");  
       $query = "SELECT * FROM messages1 where message LIKE '%".$tag."%'";  
       $result = mysqli_query($connect, $query);  
       if(mysqli_num_rows($result) > 0)  
@@ -127,7 +127,7 @@ textarea {
   <?php 
   // Se conecta al SGBD 
   $user=$_SESSION["username"]; 
-  if(!($conexion = mysql_connect("localhost", "root", "lolita1873"))) 
+  if(!($conexion = mysql_connect("localhost", "root", "password"))) 
     die("Error: No se pudo conectar");
  $user=$_SESSION['username'] ;
   // Selecciona la base de datos 
